@@ -1,0 +1,142 @@
+/* lappys and desktops */
+
+@media only screen and (min-width: 992px) {
+  body {
+    background-image: url("images-home/space-d.jpg");
+  }
+
+}
+
+
+
+
+
+/* tablets */
+
+@media only screen and (min-width: 600px) and (max-width:991px) {
+  body {
+    background-image: url("images-home/space-t.jpg");
+  }
+}
+
+
+
+
+
+/* phones */
+
+@media only screen and (max-width:599px) {
+  body {
+    background-image: url("images-home/space-p.jpg");
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1 {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 900%;
+  width: 50%;
+}
+
+h6 {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 195%;
+}
+
+p {
+  font-family: 'Maven Pro', sans-serif;
+  text-align: justify;
+  font-size: 120%;
+  padding-bottom: 10%;
+}
+
+hr {
+  background-color: white;
+  width: 30%;
+  margin-right: 57%;
+  margin-top: -3%;
+  opacity: 0.2;
+}
+
+/* CLASS ELEMENTS */
+.main-heading {
+  color: #fff;
+  text-align: left;
+  padding-top: 7%;
+  margin-left: 10%;
+  font-size: 100%;
+}
+
+.hehe {
+  width: 435px;
+}
+
+.active {
+  color: white;
+  font-family: 'Exo 2', sans-serif;
+  word-spacing: 50px;
+  color: rgba(225, 225, 225, 0.8);
+}
+
+.active:hover {
+  color: white;
+}
+
+.taskbar {
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+  background-color: rgba(225, 225, 225, 0.1);
+  width: 60%;
+  margin-left: 41%;
+  margin-top: 2%;
+}
+
+.home-nav {
+  color: white;
+  word-spacing: 8px;
+}
+
+.explore {
+  position: relative;
+  margin-left: 70%;
+  padding: 8% 8%;
+  margin-top: -25%;
+  width: 15%;
+  background-color: white;
+  border-radius: 100%;
+}
+
+.explore-circ {
+  font-family: 'Cormorant Garamond', serif;
+  color: black;
+  font-size: 170%;
+  margin-left: 73.5%;
+  margin-top: -10.5%;
+  position: absolute;
+  text-align: center;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  margin-top: -43px;
+  margin-left: 70px;
+}

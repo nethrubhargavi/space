@@ -1,0 +1,100 @@
+/* desktops and laptops */
+@media (min-width: 769px) {
+  body {
+    background-image: url("images/space-d.jpg");
+  }
+}
+
+/* tablets */
+@media (min-width: 481px) and (max-width: 768px) {
+  body {
+    background-image: url("images/space-t.jpg");
+  }
+}
+
+/* mobiles */
+@media (max-width: 480px) {
+  body {
+    background-image: url("images/space-p.jpg");
+  }
+}
+
+
+
+/* for all */
+.main-heading {
+  color: #fff;
+  text-align: center;
+}
+
+.active {
+  color: white;
+  font-family: 'Exo 2', sans-serif;
+  font-weight: bold;
+}
+
+.active:hover {
+  color: white;
+}
+
+.taskbar {
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+  background-color: rgba(225, 225, 225, 0.1);
+  width: 60%;
+  margin-left: 41%;
+  margin-top: 2%;
+}
+
+.home-nav {
+  color: white;
+}
+
+.explore {
+  background-color: white;
+  position: relative;
+  margin-left: 950px;
+  font-size: 30px;
+  padding: 70px 30px;
+  margin-top: -200px;
+  border-radius: 100%;
+  border-color: white;
+}
+
+.explore:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+hr {
+  background-color: white;
+  width: 30%;
+  margin-right: 57%;
+  margin-top: -3%;
+  opacity: 0.2;
+}
+
+
+/*  */
+
+
+h1 {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 900%;
+}
+
+.main-heading {
+  padding-top: 7%;
+  margin-left: 10%;
+  margin-right: 55%;
+}
+
+h6 {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 195%;
+}
+
+p {
+  font-family: 'Maven Pro', sans-serif;
+  text-align: justify;
+  font-size: 120%;
+}

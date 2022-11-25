@@ -1,0 +1,114 @@
+/* BODY ELEMENTS */
+
+body {
+  background-image: url("images-technology/bg-tech-d.jpg");
+}
+
+
+hr {
+  background-color: white;
+  width: 30%;
+  margin-right: 57%;
+  margin-top: -3%;
+  opacity: 0.2;
+}
+
+h1 {
+  font-size: 400%;
+  text-align: center;
+  margin-left: 40%;
+  color: white;
+  font-family: 'DM Serif Display', serif;
+  word-spacing: 8px;
+  position: absolute;
+  margin-top: 15%;
+  display: block;
+}
+
+ul {
+  margin-left: -3%;
+}
+
+
+/* CLASS ELEMENTS */
+
+.active {
+  color: white;
+  font-family: 'Exo 2', sans-serif;
+  word-spacing: 50px;
+  color: rgba(225, 225, 225, 0.8);
+}
+
+
+.active:hover {
+  color: white;
+}
+
+
+.taskbar {
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+  background-color: rgba(225, 225, 225, 0.1);
+  width: 60%;
+  margin-left: 41%;
+  margin-top: 0.5%;
+}
+
+
+.home-nav {
+  color: white;
+  word-spacing: 8px;
+}
+
+
+.logo {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  margin-top: -43px;
+  margin-left: 70px;
+}
+
+.loading {
+  margin-top: 10%;
+  text-align: center;
+  visibility: visible;
+  transition: 0.5s;
+}
+
+.termi {
+  position: absolute;
+  color: white;
+  margin: 3%;
+  text-align: left;
+  font-size: 120%;
+  margin-left: 10%;
+  margin-right: 75%;
+  margin-top: 10%;
+}
+
+.link {
+  color: white;
+}
+
+.link:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.information {
+  color: white;
+  position: absolute;
+  margin: 13% 30%;
+  width: 60%;
+}
+
+.image-size {
+  width: 200%;
+  margin-left: -60%;
+}
+
+.conting {
+  width: 70%;
+  text-align: left;
+}

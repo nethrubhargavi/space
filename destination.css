@@ -1,0 +1,151 @@
+/* BODY ELEMENTS */
+
+body {
+  background-image: url("images-dest/bg-des-d.jpg");
+  padding-bottom: 10%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+
+/* CLASS ELEMENTS */
+
+
+.undeo {
+  background-color: white;
+  width: 30%;
+  margin-right: 57%;
+  margin-top: -3%;
+  opacity: 0.2;
+}
+
+.active {
+  color: white;
+  font-family: 'Exo 2', sans-serif;
+  word-spacing: 50px;
+  color: rgba(225, 225, 225, 0.8);
+}
+
+
+.active:hover {
+  color: white;
+}
+
+
+.taskbar {
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+  background-color: rgba(225, 225, 225, 0.1);
+  width: 60%;
+  margin-left: 41%;
+  margin-top: 0.5%;
+}
+
+
+.home-nav {
+  color: white;
+  word-spacing: 8px;
+}
+
+
+.logo {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  margin-top: -43px;
+  margin-left: 70px;
+}
+
+
+.desto {
+  color: white;
+  margin-top: 5%;
+  font-size: 400%;
+  font-family: 'DM Serif Display', serif;
+  word-spacing: 10px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+
+.card {
+  width: 18%;
+  text-align: center;
+  border-radius: 10%;
+}
+
+
+.gapso {
+  padding-bottom: 8%;
+  width: 100%;
+  text-align: center;
+}
+
+
+.moon, .mars, .europa, .titan {
+  margin-top: 5%;
+}
+
+
+.moon {
+  position: absolute;
+  margin-left: 5%;
+}
+
+.mars {
+  position: absolute;
+  margin-left: 28%;
+}
+
+
+.europa {
+  position: absolute;
+  margin-left: 51%;
+}
+
+.titan {
+  position: absolute;
+  margin-left: 74%;
+}
+
+.container {
+  color: black;
+}
+
+.content {
+  color: white;
+  margin-top: 40%;
+  margin-left: 6%;
+  margin-right: 5%;
+  font-size: 100%;
+  width: 80%;
+}
+
+.aka {
+  background-color: rgba(0, 0, 0, 0.9);
+  padding: 5%;
+  margin-left: 10%;
+}
+
+.marss, .titann {
+  padding-left: 50%;
+  width: 100%;
+}
+
+.moonn, .europaa {
+  width: 50%;
+}
+
+.imiji {
+  width: 200%;
+}
+
+.moon-pic, .europa-pic {
+  margin-left: -130%
+}
